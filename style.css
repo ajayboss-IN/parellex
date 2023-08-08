@@ -11,6 +11,7 @@
     left: 0;
     width: 100%;
     display: flex;
+    
 }
 
 .container section {
@@ -20,34 +21,41 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(./assets/flota1.png);
+    background-image: url(./assets/is1.jpg);
     background-repeat: no-repeat;
     background-size: auto;
+    
 }
 
 .container section:nth-child(2)
 {
-    background-image: url(./assets/flota2.png);
+    background-image: url(./assets/is2.jpg);
     background-repeat: no-repeat;
     background-size: auto;
 }
 .container section:nth-child(3)
 {
-    background-image: url(./assets/flota3.png);
+    background-image: url(./assets/is3.jpg);
     background-repeat: no-repeat;
     background-size: auto;
 }
 .container section:nth-child(4)
 {
-    background-image: url(./assets/flota1.png);
+    background-image: url(./assets/is4.jpg);
     background-repeat: no-repeat;
     background-size: auto;
 }
 
 .container section .content{
-    max-width: 800px;
+    min-width: 600px;
     padding: 40px;
     text-align: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .container section .content h2 {
